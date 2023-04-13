@@ -13,18 +13,23 @@
 <body>
     <div id="container">
         <div class="header">
-            <a>Apply for access</a>
+            <a href="#image">Apply for access</a>
             <h4>Workit</h4>
-            <button>Learn More</button>
+            <button onclick="button()" id="Learn" >Learn More</a></button>
              <h2>Data <strong>tailored</strong> to <br> your needs.</h2>
              <div class="phone">
-                <img src="https://azganoth.github.io/workit-landing-page/assets/images/image-hero.webp">
+                <img src="./image/image-hero.webp">
              </div>
              <div class="curve">
-                <img src="https://azganoth.github.io/workit-landing-page/assets/images/bg-pattern-2.svg">
+                <img src="./image/bg-pattern-2.svg">
              </div>
-        </div>
-        <div class="body">
+             <div class="curve1">
+                <img src="./image/bg-pattern-1.svg">
+             </div>
+        </div></div>
+        <!-- header class end -->
+        <!-- BODY PAGE starts-->
+        <div class="body" id="body">
             <div class="body1">
                 <div class="circle"><span>1</span></div>
                 <h3>Actionable insights</h3>
@@ -47,8 +52,11 @@
                 </p>
             </div>
         </div>
-        <div class="image"> 
+        <div class="image" id="image"> 
             <div class="content">
+                <div class="curve2">
+                    <img src="./image/bg-pattern-1.svg">
+                 </div>
                 <button>Apply for access</button>
                 <h3>Be the first to test</h3>
                 <p>Hi,I'm Louis Graham,the founder of the company.
@@ -66,6 +74,7 @@
          <i class='bx bxl-instagram-alt'></i>
          <i class='bx bxl-twitter'></i>
         </div>
-    </div>
+   
+    <script src="index.js"></script>
 </body>
 </html>
