@@ -23,7 +23,38 @@
 // function button(body){
 //    console.log(e.target.value)
 // }
-function button(){
-    document.getElementById("body").style.display="flex"
+function overline(){ 
+    document.getElementById("Apply").style.textDecoration ="none"
+ }
+ function over(){ 
+    document.getElementById("Apply").style.textDecoration ="underline"
+    document.getElementById("Apply").style.textDecorationColor="rgb(15, 245, 122)"
+ }
+ function overl(){ 
+    document.getElementById("tailored").style.textDecoration ="underline"
+    document.getElementById("tailored").style.textDecorationColor="rgb(15, 245, 122)"
+ }
+ function line(){ 
+    document.getElementById("tailored").style.textDecoration ="none"
+ }
+function learn(){
+    document.getElementById("container").style.display="flex"
+    // document.getElementById("Learn").style.display="none"
     // window.location = "#body"
      }
+     function changeImage(image){ 
+        if(x==1)
+        { 
+            image.src= "./image/pexels-sound-on-3756982-removebg-preview.png";
+         }
+         if( x==2 )
+         { 
+            image.src= "./image/pexels-sound-on-3760922-removebg-preview.png";
+         }
+     }
+// const learnButton = document.querySelector('button.Learn')
+// const body = document.querySelector('.body')
+
+// learnButton.addEventListener('click', (event) => {
+//   body.style.display = 'flex'
+// })

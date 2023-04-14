@@ -13,10 +13,10 @@
 <body>
     <div id="container">
         <div class="header">
-            <a href="#image">Apply for access</a>
+            <a href="#image" onmouseover="overline()" onmouseout="over()" id="Apply">Apply for access</a>
             <h4>Workit</h4>
-            <button onclick="button()" id="Learn" >Learn More</a></button>
-             <h2>Data <strong>tailored</strong> to <br> your needs.</h2>
+            <button onclick="learn()" id="Learn" >Learn More</button>
+             <h2>Data <strong onmouseover="line()" onmouseout="overl()" id="tailored">tailored</strong> to <br> your needs.</h2>
              <div class="phone">
                 <img src="./image/image-hero.webp">
              </div>
@@ -29,7 +29,7 @@
         </div></div>
         <!-- header class end -->
         <!-- BODY PAGE starts-->
-        <div class="body" id="body">
+        <div class="body" id="container">
             <div class="body1">
                 <div class="circle"><span>1</span></div>
                 <h3>Actionable insights</h3>
@@ -66,8 +66,8 @@
                 </p>
                 
             </div>
-            <div class="image1">
-                <img src="./image/black.png">
+            <div class="image1" onmouseover="changeImage(1,this)" onmouseout="changeImage(2,this)" id="image1">
+                <img src="./image/dom-removebg-preview.png">
             </div>
          <h4>Workit</h4>
          <i class='bx bxl-facebook-circle'></i>
