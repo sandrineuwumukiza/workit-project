@@ -38,20 +38,42 @@ function overline(){
     document.getElementById("tailored").style.textDecoration ="none"
  }
 function learn(){
-    document.getElementById("container").style.display="flex"
+    document.getElementById("container1").style.display="flex";
+   }
+    
+    function changeImage(x,image){
+      if(x==1){ 
+       image.src= './image/pexels-sound-on-3756982-removebg-preview.png';
+    }
+    if(x==2)
+    { 
+       image.src= './image/dom-removebg-preview.png';
+    }
+       }
     // document.getElementById("Learn").style.display="none"
     // window.location = "#body"
-     }
-     function changeImage(image){ 
-        if(x==1)
-        { 
-            image.src= "./image/pexels-sound-on-3756982-removebg-preview.png";
-         }
-         if( x==2 )
-         { 
-            image.src= "./image/pexels-sound-on-3760922-removebg-preview.png";
-         }
-     }
+   //   }
+    //  var x=document.getElementById("image1")
+    //  function changeImage(){ 
+    //     document.getElementById("image1")
+        // var image= document.getElementById("image1")
+        // function change(){
+        // image.src ="./image/pexels-sound-on-3756982-removebg-preview.png" 
+        // }
+        // function Send(){
+        //     image.src ="./image/pexels-sound-on-3760922-removebg-preview.png" 
+        //     }
+        
+        //     image.addEventListener("mouseover",change)
+            // image.addEventListener("mouseout",Send)
+            // var image= document.getElementById("image1")
+            // var 
+            
+        // if(x==1)
+        
+        //  if( x==2 )
+        
+    
 // const learnButton = document.querySelector('button.Learn')
 // const body = document.querySelector('.body')
 
